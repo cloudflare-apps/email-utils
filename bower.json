@@ -1,6 +1,7 @@
 {
   "name": "EmailUtils",
   "version": "1.0.0",
+  "main": "./utils.js",
   "authors": [
     "Zack Bloom <zack@eager.io>"
   ],
