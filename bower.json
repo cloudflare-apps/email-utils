@@ -1,0 +1,9 @@
+{
+  "name": "EmailUtils",
+  "version": "1.0.0",
+  "authors": [
+    "Zack Bloom <zack@eager.io>"
+  ],
+  "license": "MIT",
+  "private": true
+}
