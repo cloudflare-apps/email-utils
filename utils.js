@@ -1,16 +1,16 @@
 export function submit(options, email, callback) {
   if (options.destination == 'email' && options.email) {
-    submitFormspree(email, callback);
+    submitFormspree(options, email, callback);
   } else if (options.destination == 'service') {
     if (options.account.service == 'mailchimp') {
-      submitMailchimp(email, callback);
+      submitMailchimp(options, email, callback);
     } else if (options.account.service == 'constant-contact') {
-      submitConstantContact(email, callback);
+      submitConstantContact(options, email, callback);
     }
   }
 }
 
-export function submitFormspree(email, cb) {
+export function submitFormspree(options, email, cb) {
   var url, xhr, params;
 
   url = '//formspree.io/' + options.email;
@@ -41,7 +41,7 @@ export function submitFormspree(email, cb) {
   xhr.send(params);
 };
 
-export function submitMailchimp(email, cb) {
+export function submitMailchimp(options, email, cb) {
   var cbCode, url, script;
 
   cbCode = 'eagerFormCallback' + Math.floor(Math.random() * 100000000000000);
@@ -68,7 +68,7 @@ export function submitMailchimp(email, cb) {
   document.head.appendChild(script);
 };
 
-export function submitConstantContact(email, cb) {
+export function submitConstantContact(options, email, cb) {
   if (!options.form || !options.form.listId) {
     return cb(false);
   }
