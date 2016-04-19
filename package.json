@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Client-side email utilities",
   "main": "utils.js",
+  "js:main": "utils.js",
   "scripts": {},
   "repository": {
     "type": "git",
