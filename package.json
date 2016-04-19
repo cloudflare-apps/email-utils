@@ -1,0 +1,17 @@
+{
+  "name": "eager-email-utils",
+  "version": "1.0.0",
+  "description": "Client-side email utilities",
+  "main": "utils.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EagerIO/EmailUtils.git"
+  },
+  "author": "Eager",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EagerIO/EmailUtils/issues"
+  },
+  "homepage": "https://github.com/EagerIO/EmailUtils#readme"
+}
