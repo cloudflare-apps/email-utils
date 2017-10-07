@@ -1,5 +1,5 @@
 {
-  "name": "cf-email-utils",
+  "name": "@cloudflare-apps/email-utils",
   "version": "1.1.0",
   "description": "Client-side email utilities",
   "main": "utils.js",
@@ -7,12 +7,12 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CloudflareApps/EmailUtils.git"
+    "url": "git+https://github.com/CloudflareApps/email-utils.git"
   },
-  "author": "Eager",
+  "author": "Cloudflare Inc.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CloudflareApps/EmailUtils/issues"
+    "url": "https://github.com/CloudflareApps/email-utils/issues"
   },
-  "homepage": "https://github.com/CloudflareApps/EmailUtils#readme"
+  "homepage": "https://github.com/CloudflareApps/email-utils#readme"
 }
