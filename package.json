@@ -2,8 +2,8 @@
   "name": "@cloudflare-apps/email-utils",
   "version": "1.1.0",
   "description": "Client-side email utilities",
-  "main": "utils.js",
-  "js:main": "utils.js",
+  "main": "index.js",
+  "js:main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
